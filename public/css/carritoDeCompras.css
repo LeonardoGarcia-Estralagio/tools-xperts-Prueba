@@ -1,0 +1,45 @@
+.carrito__main {
+  display: flex;
+  justify-content: center;
+  background-color: var(--GrisClaro);
+}
+
+.carrito__main__section {
+  text-align: center;
+  margin: 20px;
+  background-color: var(--AzulOscuro);
+  border: solid 10px var(--AzulOscuro);
+  border-radius: 20px;
+  color: white;
+  width: 90%;
+  height: 90%;
+}
+
+.carrito__main__section h3 {
+  text-align: left;
+  font-size: 1.5rem;
+  border-bottom: solid 1px white;
+}
+
+.carrito__main__section article h4 {
+  text-align: center;
+  margin-top: 40px;
+  font-size: 1.2rem;
+}
+
+.carrito__main__section article p {
+  text-align: center;
+  margin-top: 10px;
+  margin-bottom: 20px;
+  font-size: 1.1rem;
+}
+
+.carrito__main__section article button {
+    background: var(--Rojo);
+    border: solid var(--Rojo);
+    border-radius: 25px;
+    font-size: 1rem;
+    color: white;
+    padding: 5px;
+    margin: 50px;
+}

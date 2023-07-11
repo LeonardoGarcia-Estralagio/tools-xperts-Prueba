@@ -1,0 +1,68 @@
+.carrito__header {
+    display: flex;
+    justify-content: space-between;
+    flex-direction: column;
+}
+
+.carrito__header--traslate {
+  display: flex;
+  justify-content: flex-end;
+  background-color: var(--AzulOscuro);
+}
+
+.carrito__header--traslate button {
+  background: none;
+  border: none;
+  color: var(--Rojo);
+  padding: 2%;
+  font-size: 1.5rem;
+}
+
+.carrito__header--div {
+  display: flex;
+  justify-content: space-between;
+}
+
+.carrito__header--div-cart {
+  background: none;
+  border: none;
+  font-size: 1.6rem;
+  color: var(--Rojo);
+  padding-top: 10px;
+}
+
+.carrito__header--div-signIn {
+  background: var(--Rojo);
+  border: solid var(--Rojo);
+  border-radius: 15px;
+  font-size: 1rem;
+  color: white;
+  text-transform: uppercase;
+}
+
+.carrito__header--div-img {
+  margin-top: -45px;
+  width: 150px;
+}
+
+.carrito__header--div1 {
+  display: flex;
+  justify-content: space-between;
+  background-color: var(--AzulOscuro);
+  border: solid 10px var(--AzulOscuro);
+  margin-top: -50px;
+}
+
+.carrito__header--div1-search button {
+    font-size: 1.1rem;
+}
+
+.carrito__header--div1-search input {
+    font-size: 1.1rem;
+}
+
+
+.carrito__header__nav-burger-menu {
+    color: white;
+    font-size: 1.5rem;
+}
