@@ -9,6 +9,18 @@ app.get("/", (req, res) =>
   res.sendFile(path.join(__dirname, "views", "carritoDeCompras.html"))
 );
 
+app.get("/productos", (req, res) =>
+  res.sendFile(path.join(__dirname, "views", "carritoConProductos.html"))
+);
+
+app.get("/header", (req, res) =>
+  res.sendFile(path.join(__dirname, "views", "header.html"))
+);
+
+app.get("/footer", (req, res) =>
+  res.sendFile(path.join(__dirname, "views", "footer.html"))
+);
+
 app.listen(PORT, () =>
   console.log(`server running in http://localhost:${PORT}`)
 );
